@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		A5C2CDB2282124860002DF30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2CDB1282124860002DF30 /* AppDelegate.swift */; };
 		A5C2CDB4282124860002DF30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2CDB3282124860002DF30 /* SceneDelegate.swift */; };
-		A5C2CDB6282124860002DF30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2CDB5282124860002DF30 /* ViewController.swift */; };
 		A5C2CDB9282124860002DF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2CDB7282124860002DF30 /* Main.storyboard */; };
 		A5C2CDBC282124860002DF30 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5C2CDBA282124860002DF30 /* ToDoList.xcdatamodeld */; };
 		A5C2CDBE282124890002DF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C2CDBD282124890002DF30 /* Assets.xcassets */; };
 		A5C2CDC1282124890002DF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C2CDBF282124890002DF30 /* LaunchScreen.storyboard */; };
+		A5C2CDC9282128490002DF30 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2CDC8282128490002DF30 /* TableViewController.swift */; };
+		A5C2CDCC282129730002DF30 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A5C2CDCA282129730002DF30 /* .gitignore */; };
+		A5C2CDCD282129730002DF30 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A5C2CDCB282129730002DF30 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5C2CDAE282124860002DF30 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C2CDB1282124860002DF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C2CDB3282124860002DF30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5C2CDB5282124860002DF30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5C2CDB8282124860002DF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C2CDBB282124860002DF30 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		A5C2CDBD282124890002DF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C2CDC0282124890002DF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C2CDC2282124890002DF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C2CDC8282128490002DF30 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A5C2CDCA282129730002DF30 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A5C2CDCB282129730002DF30 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		A5C2CDA5282124860002DF30 = {
 			isa = PBXGroup;
 			children = (
+				A5C2CDCA282129730002DF30 /* .gitignore */,
+				A5C2CDCB282129730002DF30 /* .swiftlint.yml */,
 				A5C2CDB0282124860002DF30 /* ToDoList */,
 				A5C2CDAF282124860002DF30 /* Products */,
 			);
@@ -60,7 +66,7 @@
 			children = (
 				A5C2CDB1282124860002DF30 /* AppDelegate.swift */,
 				A5C2CDB3282124860002DF30 /* SceneDelegate.swift */,
-				A5C2CDB5282124860002DF30 /* ViewController.swift */,
+				A5C2CDC8282128490002DF30 /* TableViewController.swift */,
 				A5C2CDB7282124860002DF30 /* Main.storyboard */,
 				A5C2CDBD282124890002DF30 /* Assets.xcassets */,
 				A5C2CDBF282124890002DF30 /* LaunchScreen.storyboard */,
@@ -80,6 +86,7 @@
 				A5C2CDAA282124860002DF30 /* Sources */,
 				A5C2CDAB282124860002DF30 /* Frameworks */,
 				A5C2CDAC282124860002DF30 /* Resources */,
+				A5C2CDCE282129950002DF30 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -128,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C2CDCD282129730002DF30 /* .swiftlint.yml in Resources */,
+				A5C2CDCC282129730002DF30 /* .gitignore in Resources */,
 				A5C2CDC1282124890002DF30 /* LaunchScreen.storyboard in Resources */,
 				A5C2CDBE282124890002DF30 /* Assets.xcassets in Resources */,
 				A5C2CDB9282124860002DF30 /* Main.storyboard in Resources */,
@@ -136,15 +145,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5C2CDCE282129950002DF30 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n  exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5C2CDAA282124860002DF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C2CDB6282124860002DF30 /* ViewController.swift in Sources */,
 				A5C2CDB2282124860002DF30 /* AppDelegate.swift in Sources */,
 				A5C2CDB4282124860002DF30 /* SceneDelegate.swift in Sources */,
 				A5C2CDBC282124860002DF30 /* ToDoList.xcdatamodeld in Sources */,
+				A5C2CDC9282128490002DF30 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +328,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +341,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,8 +358,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +371,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
