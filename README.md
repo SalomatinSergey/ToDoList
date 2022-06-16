@@ -2,7 +2,7 @@
 
 this app was created to study core data
 
-[Image]()
+![Image](https://github.com/SalomatinSergey/ToDoList/blob/main/ToDoList/Assets.xcassets/app.dataset/app.gif)
 
 ## How to install
 open console and write this:
