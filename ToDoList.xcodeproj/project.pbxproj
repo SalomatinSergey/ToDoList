@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A58DE44D284B21CD00F7C90D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5C2CDAE282124860002DF30 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C2CDB1282124860002DF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C2CDB3282124860002DF30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 			children = (
 				A5C2CDCA282129730002DF30 /* .gitignore */,
 				A5C2CDCB282129730002DF30 /* .swiftlint.yml */,
+				A58DE44D284B21CD00F7C90D /* README.md */,
 				A5C2CDB0282124860002DF30 /* ToDoList */,
 				A5C2CDAF282124860002DF30 /* Products */,
 			);
